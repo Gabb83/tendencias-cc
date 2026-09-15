@@ -1,0 +1,242 @@
+[
+  {
+    "id": "M001",
+    "data": "2026-03-01",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Há um buraco enorme na Avenida Brasil, bem na altura do número 500. Está perigoso para os carros e motos."
+  },
+  {
+    "id": "M002",
+    "data": "2026-03-01",
+    "categoria_oficial": "saúde",
+    "texto": "Falta de medicamentos básicos no posto de saúde do bairro. Vários idosos estão voltando para casa sem os remédios de pressão."
+  },
+  {
+    "id": "M003",
+    "data": "2026-03-02",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Buraco enorme na Av. Brasil"
+  },
+  {
+    "id": "M004",
+    "data": "2026-03-02",
+    "categoria_oficial": "segurança",
+    "texto": "Falta de iluminação pública na rua das Flores. A via fica extremamente escura à noite, aumentando o risco de assaltos."
+  },
+  {
+    "id": "M005",
+    "data": "2026-03-03",
+    "categoria_oficial": "educação",
+    "texto": "A creche municipal precisa de reformas urgentes no telhado. Em dias de chuva, há vazamentos nas salas de aula."
+  },
+  {
+    "id": "M006",
+    "data": "2026-03-03",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Acúmulo de lixo e entulho em terreno baldio próximo à praça central. Está atraindo insetos e roedores."
+  },
+  {
+    "id": "M007",
+    "data": "2026-03-04",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Sinaleira no cruzamento da rua 15 com a rua 7 está quebrada há dois dias provocando caos no trânsito local."
+  },
+  {
+    "id": "M008",
+    "data": "2026-03-04",
+    "categoria_oficial": "saúde",
+    "texto": "posto de saúde sem médico"
+  },
+  {
+    "id": "M009",
+    "data": "2026-03-05",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Vazamento de água limpa na calçada da rua São José. Água correndo pela rua há mais de 24 horas sem atendimento da empresa responsável."
+  },
+  {
+    "id": "M010",
+    "data": "2026-03-05",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Poda urgente de árvore grande com galhos tocando os fios de alta tensão na rua Almirante Barroso."
+  },
+  {
+    "id": "M011",
+    "data": "2026-03-06",
+    "categoria_oficial": "saúde",
+    "texto": "Demora excessiva para agendamento de consultas com cardiologista no posto central. Fila de espera passa de 6 meses."
+  },
+  {
+    "id": "M012",
+    "data": "2026-03-06",
+    "categoria_oficial": "segurança",
+    "texto": "Carros abandonados na rua da Matriz servindo de abrigo para usuários de drogas e causando insegurança para os moradores."
+  },
+  {
+    "id": "M013",
+    "data": "2026-03-07",
+    "categoria_oficial": "educação",
+    "texto": "Falta de merenda escolar na escola municipal Dom Pedro II durante esta semana. Alunos sendo liberados mais cedo."
+  },
+  {
+    "id": "M014",
+    "data": "2026-03-07",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Calçada destruída pela empresa de saneamento durante obras e deixada sem recomposição do piso."
+  },
+  {
+    "id": "M015",
+    "data": "2026-03-08",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Poluição sonora excessiva provocada por bar com som alto nas madrugadas de fim de semana na zona residencial."
+  },
+  {
+    "id": "M016",
+    "data": "2026-03-08",
+    "categoria_oficial": "saúde",
+    "texto": "Aparelho de raio-X da UPA principal está quebrado há duas semanas e os pacientes precisam se deslocar para outra cidade."
+  },
+  {
+    "id": "M017",
+    "data": "2026-03-09",
+    "categoria_oficial": "infraestrutura",
+    "texto": "asfalto todo esburacado da avenida principal"
+  },
+  {
+    "id": "M018",
+    "data": "2026-03-09",
+    "categoria_oficial": "segurança",
+    "texto": "Necessidade de instalação de lombada ou redutor de velocidade na rua das Acácias perto da escola por conta de abusos de velocidade."
+  },
+  {
+    "id": "M019",
+    "data": "2026-03-10",
+    "categoria_oficial": "educação",
+    "texto": "Transporte escolar rural falhando constantemente por problemas mecânicos nos ônibus. Crianças perdendo aulas."
+  },
+  {
+    "id": "M020",
+    "data": "2026-03-10",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Bueiro sem tampa na esquina da rua 3 com a rua 10. Risco grave de acidentes para pedestres e motociclistas."
+  },
+  {
+    "id": "M021",
+    "data": "2026-03-11",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Descarte irregular de resíduos de construção civil na margem do riacho local danificando a vegetação."
+  },
+  {
+    "id": "M022",
+    "data": "2026-03-11",
+    "categoria_oficial": "saúde",
+    "texto": "falta atendimento no PSF"
+  },
+  {
+    "id": "M023",
+    "data": "2026-03-12",
+    "categoria_oficial": "segurança",
+    "texto": "Ronda policial ausente no bairro Parque das Palmeiras onde os furtos de residência aumentaram muito."
+  },
+  {
+    "id": "M024",
+    "data": "2026-03-12",
+    "categoria_oficial": "educação",
+    "texto": "Falta de professores substitutos na rede municipal para matérias de ciências e matemática."
+  },
+  {
+    "id": "M025",
+    "data": "2026-03-12",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Ponte de madeira na zona rural apresentando estruturas podres e risco iminente de colapso ao passar caminhões."
+  },
+  {
+    "id": "M026",
+    "data": "2026-03-13",
+    "categoria_oficial": "saúde",
+    "texto": "Ambulância do SAMU demorou mais de duas horas para atender chamado de emergência cardíaca no bairro Alto."
+  },
+  {
+    "id": "M027",
+    "data": "2026-03-13",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Cheiro forte de esgoto in natura sendo despejado no córrego próximo ao bairro residencial."
+  },
+  {
+    "id": "M028",
+    "data": "2026-03-13",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Asfalto caindo em cratera devido à erosão provocada pelas fortes chuvas na estrada de acesso à comunidade."
+  },
+  {
+    "id": "M029",
+    "data": "2026-03-14",
+    "categoria_oficial": "segurança",
+    "texto": "Câmeras de monitoramento da praça central estão desligadas e vandalizadas sem manutenção recente."
+  },
+  {
+    "id": "M030",
+    "data": "2026-03-14",
+    "categoria_oficial": "educação",
+    "texto": "Quadra poliesportiva da escola estadual abandonada com estrutura metálica enferrujada e piso rachado."
+  },
+  {
+    "id": "M031",
+    "data": "2026-03-14",
+    "categoria_oficial": "infraestrutura",
+    "texto": "lâmpada queimada na praça"
+  },
+  {
+    "id": "M032",
+    "data": "2026-03-14",
+    "categoria_oficial": "saúde",
+    "texto": "Ar condicionado quebrado nas salas de espera da unidade básica de saúde causando desconforto térmico intenso."
+  },
+  {
+    "id": "M033",
+    "data": "2026-03-15",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Maus tratos e abandono de animais na praça municipal sem recolhimento pela Zoonoses do município."
+  },
+  {
+    "id": "M034",
+    "data": "2026-03-15",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Falta de abrigo e assento no ponto de ônibus da avenida principal expondo passageiros ao sol e à chuva."
+  },
+  {
+    "id": "M035",
+    "data": "2026-03-15",
+    "categoria_oficial": "segurança",
+    "texto": "Semáforo para pedestres em frente à escola primária desativado forçando crianças a atravessarem entre os carros."
+  },
+  {
+    "id": "M036",
+    "data": "2026-03-15",
+    "categoria_oficial": "infraestrutura",
+    "texto": "Gostaria de registrar uma reclamação detalhada sobre a situação crítica da infraestrutura no bairro Jardim Europa. Há mais de seis meses, as principais vias de acesso, como a Rua dos Lírios e a Avenida Central, apresentam buracos enormes que estão provocando constantes danos mecânicos aos veículos dos moradores e transporte público. Além disso, quando chove, a situação piora drasticamente pois a água encobre as crateras, resultando em acidentes graves com motociclistas. A iluminação pública no trecho final da rua também está completamente apagada há três semanas, deixando os pedestres expostos ao risco de assaltos ao retornarem do trabalho à noite. Solicitamos uma intervenção emergencial da prefeitura para recapeamento asfáltico e manutenção da iluminação."
+  },
+  {
+    "id": "M037",
+    "data": "2026-03-15",
+    "categoria_oficial": "saúde",
+    "texto": "Venho por meio desta manifestação expressar meu total descontentamento com o atendimento prestado pela Unidade Básica de Saúde da Família do bairro Santa Rita. Na última segunda-feira, compareci à unidade às 06h da manhã para tentar agendar uma consulta com o clínico geral para meu pai idoso, porém deparei-me com uma fila imensa do lado de fora sob chuva. Às 08h, fomos informados de que havia apenas 5 senhas disponíveis para todo o dia por falta de médicos no plantão. É inaceitável que uma comunidade de mais de dez mil habitantes disponha de apenas um profissional de saúde ativo. Ademais, medicamentos essenciais para controle do diabetes e hipertensão estão em falta na farmácia popular do posto há mais de dois meses."
+  },
+  {
+    "id": "M038",
+    "data": "2026-03-15",
+    "categoria_oficial": "educação",
+    "texto": "A presente mensagem visa alertar a Secretaria Municipal de Educação sobre as péssimas condições estruturais e pedagógicas da Escola Municipal Machado de Assis. A instituição encontra-se com as instalações sanitárias completamente danificadas, sem água encanada regular nas torneiras dos banheiros dos alunos, o que configura um grave risco de contaminação e falta de higiene. O teto das salas do bloco B apresenta infiltrações graves com mofo e risco de desabamento em dias de tempestade. Na parte pedagógica, a falta de professores para as disciplinas de matemática e inglês perdura desde o início do ano letivo, comprometendo seriamente o calendário escolar e o aprendizado das crianças."
+  },
+  {
+    "id": "M039",
+    "data": "2026-03-15",
+    "categoria_oficial": "meio ambiente",
+    "texto": "Solicito fiscalização urgente da Secretaria do Meio Ambiente em relação à queimada de lixo e entulho promovida semanalmente por uma empresa de reciclagem clandestina na Rua das Oliveiras, número 120. A fumaça tóxica gerada durante o processo de queima de plásticos e borracha invade as residências do entorno durante o período da noite, provocando crises alérgicas e problemas respiratórios em crianças e idosos da vizinhança. Além da contaminação do ar, o terreno utilizado não possui contenção adequada de resíduos, e o chorume está escorrendo diretamente para a rede de águas pluviais, atingindo o lago do parque municipal."
+  },
+  {
+    "id": "M040",
+    "data": "2026-03-15",
+    "categoria_oficial": "segurança",
+    "texto": "Relato a situação de extrema insegurança que assola os frequentadores e comerciantes da Praça da Liberdade no centro da cidade. Durante o período noturno, a falta de iluminação pública somada à completa ausência de rondas da Guarda Municipal e Polícia Militar transformou o local em ponto frequentado por assaltantes e usuários de drogas em situação de vulnerabilidade. Vários comércios locais tiveram suas portas arrombadas na última semana e pedestres são abordados diariamente com violência ao se deslocarem para os pontos de ônibus. Solicitamos urgentemente o reforço do policiamento e a reparação dos postes de luz queimados."
+  }
+]
