@@ -50,15 +50,19 @@ st.title("🏥 HealthSearch — Motor de Busca Híbrido")
 st.sidebar.header("⚙️ Parâmetros BM25 (Fase 2)")
 k1 = st.sidebar.slider("Saturação de Frequência (k1)", min_value=0.0, max_value=3.0, value=1.2, step=0.1)
 b = st.sidebar.slider("Normalização pelo Comprimento (b)", min_value=0.0, max_value=1.0, value=0.75, step=0.05)
+st.sidebar.header("⚖️ Fusão RRF")
+alpha = st.sidebar.slider("Peso do BM25 (α)", min_value=0.0, max_value=1.0, value=0.5, step=0.05)
+k_rrf = 60
 
 corpus_tokens = df_corpus['tokens'].tolist()
 bm25 = BM25Okapi(corpus_tokens, k1=k1, b=b)
 query = st.text_input("🔍 Digite a sua consulta clínica/médica:", value="CÓD-ECG-12D infarto")
 
-tab1, tab2, tab3 = st.tabs([
+tab1, tab2, tab3, tab4 = st.tabs([
     "📄 Fase 1: Corpus e Tokens", 
     "📊 Fase 2: Ranking BM25", 
-    "🧠 Fase 3: Busca Semântica"
+    "🧠 Fase 3: Busca Semântica",
+    "⚖️ Fase 4: Fusão RRF"
 ])
 
 # fase 1
@@ -109,3 +113,32 @@ with tab3:
         )
     else:
         st.info("Insira um termo na caixa de pesquisa para calcular a similaridade semântica.")
+
+# fase 4
+with tab4:
+    st.header("Fase 4: Fusão de Rankings (Reciprocal Rank Fusion)")
+    st.latex(r"\mathrm{Score}_{RRF}(D) = \alpha \cdot \frac{1}{k_{RRF} + \mathrm{Rank}_{BM25}} + (1 - \alpha) \cdot \frac{1}{k_{RRF} + \mathrm{Rank}_{Semantico}}")
+    st.caption(f"k_RRF = {k_rrf} · α = {alpha:.2f}")
+
+    if query.strip():
+        query_tokens = preprocessar_texto(query)
+        query_embedding = modelo_semantico.encode([query])
+
+        df_rrf = df_corpus[['id', 'titulo', 'conteudo']].copy()
+        df_rrf['score_bm25'] = bm25.get_scores(query_tokens)
+        df_rrf['rank_bm25'] = df_rrf['score_bm25'].rank(method='first', ascending=False).astype(int)
+        df_rrf['score_semantico'] = cosine_similarity(query_embedding, doc_embeddings)[0]
+        df_rrf['rank_semantico'] = df_rrf['score_semantico'].rank(method='first', ascending=False).astype(int)
+        df_rrf['score_rrf'] = (
+            alpha / (k_rrf + df_rrf['rank_bm25'])
+            + (1 - alpha) / (k_rrf + df_rrf['rank_semantico'])
+        )
+        df_rrf = df_rrf.sort_values(by='score_rrf', ascending=False)
+
+        st.dataframe(
+            df_rrf[['id', 'titulo', 'rank_bm25', 'rank_semantico', 'score_rrf', 'conteudo']],
+            use_container_width=True,
+            hide_index=True
+        )
+    else:
+        st.info("Insira um termo na caixa de pesquisa para calcular a fusão RRF.")
